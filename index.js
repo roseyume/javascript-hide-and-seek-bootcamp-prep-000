@@ -20,7 +20,7 @@ function increaseRankBy(n)
   for(var x =0; x< target.length; x++)
   {
       var value = parseInt(listNode[x])+n;
-      listNode[y].innerHTML=value.toString();
+      listNode[x].innerHTML=value.toString();
     
   }
   
