@@ -22,7 +22,7 @@ function increaseRankBy(n)
     var listNode = target[x].querySelectorAll('ul');
     for(var y = 0; y < target.length; y++)
     {
-      var value = parseInt(listNode[y])+1;
+      var value = parseInt(listNode[y])+n;
       listNode[y].textContent=value;
     }
   }
